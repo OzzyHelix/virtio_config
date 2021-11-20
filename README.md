@@ -1,5 +1,5 @@
 # VFIO Config
-#### Configs, thoughts, and troubleshooting steps
+#### Config files and thoughts
 
 ![Image of VFIO Setup](vfio.png)
 
