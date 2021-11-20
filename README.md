@@ -21,6 +21,8 @@ the draw back of it is its not the best solution for apps that use anti-cheat so
 *Host on the Samsung drive and Guest drives are stored on an SSD and HDD with the other HDD serving as a backup drive that.*
 
 ### Troubleshooting
+### Zen Kernel and ACS Patch
+I use the Linux Zen Kernel because it includes the ACS patch for when IOMMU Groups don't wanna work correctly
 #### B350-Plus Motherboard
 The X470 GAMING PLUS MAX serves as a good option for VFIO,  It's GPU/USB card IOMMU groups are as follows (all groups in the iommu file): 
 ```
