@@ -10,7 +10,7 @@ the draw back of it is its not the best solution for apps that use anti-cheat so
 
 ### System Specs
 * **Motherboard:** MSI X470 GAMING PLUS MAX
-* **CPU:** Ryzen 2600 @ 3.9 GHZ
+* **CPU:** Ryzen 7 5700G @ Stock
 * **RAM:** 2 x 16GB (32GB) @ 2666 MHZ
 * **GPU1 (Host):** EVGA GTX 970 4G @ Stock
 * **GPU2 (Guest):** Gigabyte GTX 1060 @ Stock
@@ -26,12 +26,11 @@ I use the Linux Zen Kernel because it includes the ACS patch for when IOMMU Grou
 #### B350-Plus Motherboard
 The X470 GAMING PLUS MAX serves as a good option for VFIO,  It's GPU/USB card IOMMU groups are as follows (all groups in the iommu file): 
 ```
-IOMMU Group 28:
-        28:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP104 [GeForce GTX 1060 6GB] [10de:1b83] (rev a1)
-IOMMU Group 29:
-        28:00.1 Audio device [0403]: NVIDIA Corporation GP104 High Definition Audio Controller [10de:10f0] (rev a1)
-
-IOMMU Group 23:
+IOMMU Group 12:
+        12:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP104 [GeForce GTX 1060 6GB] [10de:1b83] (rev a1)
+IOMMU Group 13:
+        12:00.1 Audio device [0403]: NVIDIA Corporation GP104 High Definition Audio Controller [10de:10f0] (rev a1)
+IOMMU Group 24:
         23:00.0 USB controller [0c03]: Renesas Technology Corp. uPD720201 USB 3.0 Host Controller [1912:0014] (rev 03)
 ```
 The GTX 1060 is fully isolated and works with the VM and the GTX 970 is not 
