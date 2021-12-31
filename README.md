@@ -11,9 +11,9 @@ the draw back of it is its not the best solution for apps that use anti-cheat so
 ### System Specs
 * **Motherboard:** MSI X470 GAMING PLUS MAX
 * **CPU:** Ryzen 7 5700G @ Stock
-* **RAM:** 2 x 16GB (32GB) @ 2666 MHZ
-* **GPU1 (Host):** EVGA GTX 970 4G @ Stock
-* **GPU2 (Guest):** Gigabyte GTX 1060 @ Stock
+* **RAM:** 2 x 16GB (32GB) @ 3000 MHZ
+* **GPU1 (Host):** EVGA GTX 970 4GB @ Stock
+* **GPU2 (Guest):** Gigabyte GTX 1060 6GB @ Stock
 * **Storage:** 1 x 256GB Samsung SSD, 1 x 500GB Crucial SSD, 2 x 3TB Toshiba HDD*
 * **OS (Guest):** Windows 11 Pro
 * **OS (Host):** Arch Linux running on the Linux Zen Kernel
