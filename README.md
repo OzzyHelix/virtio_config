@@ -4,8 +4,8 @@
 ![Image of VFIO Setup](vfio.png)
 
 ### Introduction
-VFIO Allows people to run Windows for apps that simply can't run in Linux its a good solution for app compatibility its not perfect but it would allow people to run games and apps that will not run in Wine or Steam Proton
-the draw back of it is its not the best solution for apps that use anti-cheat software to protect multiplayer experiences
+VFIO allows people to run Windows for apps that simply can't run in Linux. Its a good solution for app compatibility. Its not perfect but it would allow people to run games and apps that will not run in Wine or Steam Proton.
+The draw back its not the best solution for apps that use anti-cheat software to protect multiplayer experiences.
 
 
 ### System Specs
